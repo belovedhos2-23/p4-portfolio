@@ -1,52 +1,67 @@
 /* Your Website Styles */
 
-
-
-/* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+h1	{
+color: #FF5050;
+font-family: 'Arvo', sans-serif;
+width: 100%;
+font-size: 3em;
+margin: 100px orange;
+padding: 10px 10px 20px 20px;
+text-align: center;
+background-color: #3C3C40; 
+letter-spacing: +8px
 }
 
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+h2 {
+	text-align: left;
+	font-family: 'Poiret One', sans-serif;
+	color:#404055;
+}
+h3 {
+	text-align: left;
+	font-family: 'Arvo', sans-serif;
+	color: #404055;
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-  text-align: center;
+p {
+	text-align: left;
+	font-family: 'Poiret One', sans-serif;
 }
 
-.gallery .controls img {
-  border: 5px solid #000;
+nav a {
+	font-family: 'Poiret One', sans-serif;
 }
 
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
+img	{
+	
+	width: 480px;
+	border-radius: 40px;
 }
+body	{
+background: url(../img/wavegrid.png)
 
-
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+a {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul {
+	margin: 0 0 0 0;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	margin-right: 40px;
+}
+
+
+
