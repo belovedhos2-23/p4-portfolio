@@ -153,6 +153,7 @@ footer {
 	margin: 2.5%;
 	background-color: #343434;
 	color: #FFF;
+	opacity: ;
 }
 
 #gallery li a p {
@@ -215,6 +216,9 @@ h3 {
 	background-image:url('../img/twitter.png');
 }
 
+
+img {
+	max-width: 200px;
 
 
 
