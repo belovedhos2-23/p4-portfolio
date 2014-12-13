@@ -103,15 +103,22 @@ footer {
 }
 
 
-
-
-
-
-.gallery {
-	max-width: 100px;
+/*GALLERY ANIMATION*/
+img {
+	width:200px;
+	height: 90px;}
+ 
+  /* Set Perspective*/
+img { transform: perspective(200px) rotateY(50deg);
+  transform-origin: bottom right;
+  transition: transform 1s;
+  
 }
 
-
+.control-button:hover {
+  transform: perspective(200px) rotateY(0deg);
+  
+}
 
 
 /* Show Grid */
